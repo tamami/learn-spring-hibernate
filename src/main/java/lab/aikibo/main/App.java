@@ -8,7 +8,7 @@ import lab.aikibo.entity.Sppt;
 
 public class App {
   public static void main(String args[]) {
-    ApplicationContext appContext = new ClassPathXmlApplicationContext("resources/config/BeanLocations.xml");
+    ApplicationContext appContext = new ClassPathXmlApplicationContext("config/BeanLocations.xml");
 
     SpptBo spptBo = (SpptBo) appContext.getBean("spptBo");
 

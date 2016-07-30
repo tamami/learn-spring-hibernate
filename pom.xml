@@ -100,5 +100,12 @@
       <artifactId>bonecp-provider</artifactId>
       <version>0.7.1.RELEASE</version>
     </dependency>
+
+    <!-- slf4j -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
+    </dependency>
   </dependencies>
 </project>
