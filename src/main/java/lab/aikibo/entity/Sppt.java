@@ -1,5 +1,8 @@
 package lab.aikibo.entity;
 
+import java.math.BigInteger;
+import java.io.Serializable;
+
 public class Sppt implements Serializable {
 
   private String nop;
@@ -26,6 +29,7 @@ public class Sppt implements Serializable {
       "alamat op: " + alamatOp + "\n" +
       "pokok: " + pokok + "\n" +
       "denda: " + denda;
+    return result;
   }
 
   public String getNop() {

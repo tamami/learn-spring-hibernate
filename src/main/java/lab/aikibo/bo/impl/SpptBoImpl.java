@@ -2,6 +2,7 @@ package lab.aikibo.bo.impl;
 
 import lab.aikibo.bo.SpptBo;
 import lab.aikibo.manager.SpptManager;
+import lab.aikibo.entity.Sppt;
 
 public class SpptBoImpl implements SpptBo {
   SpptManager spptManager;
@@ -12,6 +13,6 @@ public class SpptBoImpl implements SpptBo {
   }
 
   public Sppt getDataIndividual(String nop, String thn) {
-    return SpptManager.getDataIndividual(nop, thn);
+    return spptManager.getDataIndividual(nop, thn);
   }
 }
