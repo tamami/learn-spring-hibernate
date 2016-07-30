@@ -6,6 +6,7 @@ import lab.aikibo.manager.SpptManager;
 public class SpptBoImpl implements SpptBo {
   SpptManager spptManager;
 
+  
   public void setSpptManager(SpptManager spptManager) {
     this.spptManager = spptManager;
   }

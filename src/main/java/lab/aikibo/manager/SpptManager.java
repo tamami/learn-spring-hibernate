@@ -8,7 +8,7 @@ import lab.aikibo.entity.Sppt;
 
 public class SpptManager extends HibernateDaoSupport {
 
-  public Sppt getDataIndividual(String nop, String thn) {
+  public static Sppt getDataIndividual(String nop, String thn) {
     List list = getHibernateTemplate().find("from Sppt where nop=? and thnPajak=?", nop, thn);
 
     return (Sppt) list.get(0);

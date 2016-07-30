@@ -8,6 +8,24 @@
   <name>learn-spring-hibernate</name>
   <url>http://maven.apache.org</url>
 
+  <!--
+  <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>1.2.1</version>
+    <executions>
+      <execution>
+        <goals>
+          <goal>java</goal>
+        </goals>
+      </execution>
+    </executions>
+    <configuration>
+      <mainClass>lab.aikibo.main.App</mainClass>
+    </configuration>
+  </plugin>
+  -->
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
