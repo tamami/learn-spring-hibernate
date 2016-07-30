@@ -1,6 +1,6 @@
 package lab.aikibo.entity;
 
-public class Sppt {
+public class Sppt implements Serializable {
 
   private String nop;
   private String thnPajak;
@@ -17,6 +17,15 @@ public class Sppt {
     this.alamatOp = alamatOp;
     this.pokok = pokok;
     this.denda = denda;
+  }
+
+  public String toString() {
+    String result = "nop: " + nop + "\n" +
+      "thn pajak: " + thnPajak + "\n" +
+      "nama: " + nama + "\n" +
+      "alamat op: " + alamatOp + "\n" +
+      "pokok: " + pokok + "\n" +
+      "denda: " + denda;
   }
 
   public String getNop() {
